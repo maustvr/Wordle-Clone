@@ -1,0 +1,50 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#error {
+   -fx-border-color: transparent;
+   -fx-text-fill: red;
+}
+.label
+{
+    -fx-font-size: 24px;
+    -fx-border-color: gray;
+    -fx-border-width: 2;
+    -fx-border-style: solid;
+    -fx-padding: 5 5 5 5;
+
+}
+
+.textfield {
+        -fx-font-size: 200px;
+        -fx-border-color: gray;
+        -fx-border-width: 2;
+        -fx-border-style: solid;
+        -fx-padding: 8 8 8 8;
+}
+
+.correct {
+    -fx-background-color: green;
+}
+
+.wrongLocation {
+    -fx-background-color: yellow;
+}
+
+.incorrect {
+    -fx-background-color: gray;
+}
+
+#myLabel
+{
+    -fx-font-size: 50px;
+    -fx-background-color:rgba(255, 255, 255, .80);
+    -fx-text-fill: #fff8dc;
+    -fx-padding: 8 8 8 8;
+    -fx-border-radius: 10;
+    -fx-font-weight: bold;
+}
+
+/*.root
+{
+    -fx-background-color: #00ffff;
+
+}*/

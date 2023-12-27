@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.wordle.LoseController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="1.0" layoutY="14.0" prefHeight="53.0" prefWidth="300.0" text="Too Bad">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="newGame" alignment="CENTER" contentDisplay="CENTER" layoutX="86.0" layoutY="158.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="131.0" text="New Game" onAction="#onButtonClicked" />
+      <Button fx:id="exitbtn" alignment="CENTER" contentDisplay="CENTER" layoutX="86.0" layoutY="213.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="131.0" text="Exit" onAction="#onButtonClicked" />
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="1.0" layoutY="58.0" prefHeight="30.0" prefWidth="300.0" text="The correct answer is: ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="answer" alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="98.0" prefHeight="43.0" prefWidth="294.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
